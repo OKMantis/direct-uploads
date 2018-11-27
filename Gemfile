@@ -16,7 +16,7 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
-gem "aws-sdk-s3", require: false
+gem 'aws-sdk-s3'
 gem 'mini_magick'
 
 group :development do

@@ -13,7 +13,6 @@ amazon:
   secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
   region: <%= ENV['AWS_REGION'] %>
   bucket: <%= ENV['AWS_S3_BUCKET_NAME'] %>
-  endpoint: https://apigateway.eu-west-3.amazonaws.com
 
 # Use rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 # amazon:
